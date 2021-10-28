@@ -6,11 +6,11 @@ class Point:
         self.__a = b
     def set_x(self, x):
         b = self.__a
-        b[0] = str(x)
+        b[0] = x
         self.__a = b
     def set_y(self, y):
         b = self.__a
-        b[1] = str(y)
+        b[1] = y
         self.__a = b
 
     def get_a(self):
@@ -22,11 +22,3 @@ class Point:
     def get_y(self):
         b = self.__a
         return ' '.join(b[1])
-
-
-
-
-
-
-
-
